@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     template: '%s | Varun Mathur',
   },
   description: 'Personal portfolio and blog.',
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'Varun Mathur',
     description: 'Personal portfolio and blog.',
