@@ -8,7 +8,7 @@ export default function Page() {
       {/* Two Column Layout */}
       <div className="flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-20 xl:gap-24 mb-20 md:mb-28">
         {/* Left Column - ASCII Art + Tagline + Socials */}
-        <div className="lg:min-w-fit shrink-0">
+        <div className="lg:min-w-fit shrink-0 flex flex-col items-center lg:items-start">
           <AsciiName />
           
           {/* Tagline */}
