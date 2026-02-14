@@ -1,4 +1,3 @@
-import { BlogPosts } from 'app/components/posts'
 import { AsciiName } from 'app/components/ascii-name'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -41,12 +40,6 @@ export default function Page() {
             >
               mail
             </a>
-            <Link
-              href="/blog"
-              className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors underline underline-offset-4"
-            >
-              blog
-            </Link>
           </div>
         </div>
 
