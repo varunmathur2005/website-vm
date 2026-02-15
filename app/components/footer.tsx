@@ -1,4 +1,6 @@
 export default function Footer() {
+  const buildDate = process.env.NEXT_PUBLIC_BUILD_DATE || new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+  
   return (
     <footer className="mt-4 md:mt-6 py-6 md:py-8 border-t border-neutral-200 dark:border-neutral-800">
       <div className="px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
@@ -20,7 +22,7 @@ export default function Footer() {
               © Varun Mathur
             </p>
             <p className="text-neutral-600 dark:text-neutral-300 text-xs">
-              Last updated {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+              Last updated {buildDate}
             </p>
           </div>
         </div>
