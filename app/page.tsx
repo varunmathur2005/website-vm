@@ -105,7 +105,7 @@ export default function Page() {
         <div className="space-y-6">
           {/* University of Waterloo */}
           <div className="flex gap-4 items-start">
-            <Image src="/waterloo.png" alt="University of Waterloo" width={40} height={40} className="shrink-0 rounded" />
+            <Image src="/uwaterloo2_.png" alt="University of Waterloo" width={40} height={40} className="shrink-0 rounded" />
             <div className="flex-1">
               <div className="flex justify-between items-start gap-4 mb-1">
                 <a href="https://crysp.uwaterloo.ca/" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-semibold text-black dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors underline underline-offset-4">
