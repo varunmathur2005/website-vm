@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <section className="py-8 sm:py-12 md:py-20 max-w-6xl mx-auto">
       {/* Two Column Layout */}
-      <div className="flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-20 xl:gap-24 mb-20 md:mb-28">
+      <div className="flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-20 xl:gap-24 mb-12 md:mb-16">
         {/* Left Column - ASCII Art + Tagline + Socials */}
         <div className="lg:min-w-fit shrink-0 flex flex-col items-center lg:items-start">
           <AsciiName />
@@ -58,9 +58,9 @@ export default function Page() {
       </div>
 
       {/* Featured Projects Section */}
-      <div className="mt-8 md:mt-12 mb-8 md:mb-12">
-        <h2 className="text-xl md:text-2xl font-medium italic mb-6 tracking-tight">Featured Projects</h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="mb-12 md:mb-16">
+        <h2 className="text-xl md:text-2xl font-medium italic tracking-tight">Featured Projects</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
           {/* Project 1 - Knock-Knock */}
           <a 
             href="https://github.com/varunmathur2005/Knock-Knock"
@@ -100,8 +100,8 @@ export default function Page() {
       </div>
 
       {/* Work Experience Section */}
-      <div className="mt-8 md:mt-12 mb-8 md:mb-12">
-        <h2 className="text-xl md:text-2xl font-medium italic mb-6 tracking-tight">Experience</h2>
+      <div className="mb-12 md:mb-16">
+        <h2 className="text-xl md:text-2xl font-medium italic mb-4 tracking-tight">Experience</h2>
         <div className="space-y-6">
           {/* University of Waterloo */}
           <div className="flex gap-4 items-start">
@@ -199,8 +199,8 @@ export default function Page() {
       </div>
 
       {/* Hobbies Section */}
-      <div className="mt-8 md:mt-12 mb-4 md:mb-6">
-        <h2 className="text-xl md:text-2xl font-medium italic mb-3 tracking-tight">Hobbies</h2>
+      <div>
+        <h2 className="text-xl md:text-2xl font-medium italic mb-4 tracking-tight">Hobbies</h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
           Outside of work, I’m usually at the gym, on the soccer field, running pickup basketball, or playing poker.
         </p>

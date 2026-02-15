@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <footer className="mt-6 md:mt-8 py-6 md:py-8 border-t border-neutral-200 dark:border-neutral-800">
+    <footer className="mt-4 md:mt-6 py-6 md:py-8 border-t border-neutral-200 dark:border-neutral-800">
       <div className="px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32">
         <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-3 md:gap-4">
           <div className="flex items-center gap-2">
-            <p className="text-neutral-600 dark:text-neutral-400 text-xs md:text-sm">
+            <p className="text-neutral-600 dark:text-neutral-300 text-xs md:text-sm">
               Seeking opportunities Summer 2026
             </p>
              <span className="relative flex h-2 w-2">
@@ -16,10 +16,10 @@ export default function Footer() {
             Feel free to reach out!
           </p>
           <div className="flex flex-col md:items-end gap-1">
-            <p className="text-neutral-600 dark:text-neutral-400 text-xs md:text-sm">
+            <p className="text-neutral-600 dark:text-neutral-300 text-xs md:text-sm">
               © Varun Mathur
             </p>
-            <p className="text-neutral-600 dark:text-neutral-400 text-xs">
+            <p className="text-neutral-600 dark:text-neutral-300 text-xs">
               Last updated {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
             </p>
           </div>
