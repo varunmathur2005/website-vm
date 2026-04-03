@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-3 md:gap-4">
           <div className="flex items-center gap-2">
             <p className="text-neutral-600 dark:text-neutral-300 text-xs md:text-sm">
-              Seeking opportunities Summer 2026
+              Seeking opportunities Summer 2027
             </p>
              <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>

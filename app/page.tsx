@@ -103,6 +103,25 @@ export default function Page() {
       <div className="mb-12 md:mb-16">
         <h2 className="text-xl md:text-2xl font-medium italic mb-4 tracking-tight">Experience</h2>
         <div className="space-y-6">
+          {/* Microsoft */}
+          <div className="flex gap-4 items-start">
+            <Image src="/microsoft_logo.png" alt="Microsoft" width={40} height={40} className="shrink-0 rounded" />
+            <div className="flex-1">
+              <div className="flex justify-between items-start gap-4 mb-1">
+                <a href="https://microsoft.com/" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-semibold text-black dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors underline underline-offset-4">
+                  Microsoft
+                </a>
+                <span className="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 shrink-0">Fall 2026</span>
+              </div>
+              <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm mb-1">
+                Incoming Fall 2026
+              </p>
+              <p className="text-neutral-600 dark:text-neutral-400 text-xs italic">
+                Software Engineering • Internship
+              </p>
+            </div>
+          </div>
+
           {/* University of Waterloo */}
           <div className="flex gap-4 items-start">
             <Image src="/uwaterloo2_.png" alt="University of Waterloo" width={40} height={40} className="shrink-0 rounded" />
