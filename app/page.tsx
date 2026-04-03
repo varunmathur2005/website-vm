@@ -105,7 +105,9 @@ export default function Page() {
         <div className="space-y-6">
           {/* Microsoft */}
           <div className="flex gap-4 items-start">
-            <Image src="/microsoft_logo.png" alt="Microsoft" width={40} height={40} className="shrink-0 rounded" />
+            <div className="w-11 h-11 rounded bg-neutral-800 dark:bg-neutral-800 flex items-center justify-center shrink-0">
+              <Image src="/microsoft_logo_b.png" alt="Microsoft" width={25} height={25} className="rounded" />
+            </div>
             <div className="flex-1">
               <div className="flex justify-between items-start gap-4 mb-1">
                 <a href="https://microsoft.com/" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-semibold text-black dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors underline underline-offset-4">
