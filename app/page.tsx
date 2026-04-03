@@ -111,7 +111,7 @@ export default function Page() {
                 <a href="https://microsoft.com/" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-semibold text-black dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors underline underline-offset-4">
                   Microsoft
                 </a>
-                <span className="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 shrink-0">Fall 2026</span>
+                <span className="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 shrink-0">2026</span>
               </div>
               <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm mb-1">
                 Incoming Fall 2026
