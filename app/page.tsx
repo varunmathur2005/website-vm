@@ -57,48 +57,6 @@ export default function Page() {
         </div>
       </div>
 
-      {/* Featured Projects Section */}
-      <div className="mb-12 md:mb-16">
-        <h2 className="text-xl md:text-2xl font-medium italic tracking-tight">Featured Projects</h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
-          {/* Project 1 - Knock-Knock */}
-          <a 
-            href="https://github.com/varunmathur2005/Knock-Knock"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group rounded-lg p-6 transition-all"
-          >
-            <h3 className="text-lg md:text-xl font-semibold mb-2 tracking-tight text-black dark:text-white underline  underline-offset-4">
-              Knock-Knock
-            </h3>
-            <p className="text-neutral-600 dark:text-neutral-400 text-xs md:text-sm mb-2 font-medium">
-              Cold Emailing & Cover Letter Generation Platform
-            </p>
-            <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base leading-relaxed">
-              Built this to cold email recruiters and auto-write cover letters, which helped me get interviews at Alaan and fast forward the application grind.
-            </p>
-          </a>
-
-          {/* Project 2 - LeetDoc */}
-          <a 
-            href="https://github.com/varunmathur2005/LeetDoc"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group rounded-lg p-6 transition-all"
-          >
-            <h3 className="text-lg md:text-xl font-semibold mb-2 tracking-tight text-black dark:text-white underline underline-offset-4">
-              LeetDoc
-            </h3>
-            <p className="text-neutral-600 dark:text-neutral-400 text-xs md:text-sm mb-2 font-medium">
-              LeetCode Tracker with Smart Review Scheduling
-            </p>
-            <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base leading-relaxed">
-              Made a Chrome extension that logs my LeetCode solves for me and tells me when to revise, so I don't forget everything.
-            </p>
-          </a>
-        </div>
-      </div>
-
       {/* Work Experience Section */}
       <div className="mb-12 md:mb-16">
         <h2 className="text-xl md:text-2xl font-medium italic mb-4 tracking-tight">Experience</h2>
@@ -214,6 +172,48 @@ export default function Page() {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Featured Projects Section */}
+      <div className="mb-12 md:mb-16">
+        <h2 className="text-xl md:text-2xl font-medium italic tracking-tight">Featured Projects</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
+          {/* Project 1 - Knock-Knock */}
+          <a 
+            href="https://github.com/varunmathur2005/Knock-Knock"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group rounded-lg p-6 transition-all"
+          >
+            <h3 className="text-lg md:text-xl font-semibold mb-2 tracking-tight text-black dark:text-white underline  underline-offset-4">
+              Knock-Knock
+            </h3>
+            <p className="text-neutral-600 dark:text-neutral-400 text-xs md:text-sm mb-2 font-medium">
+              Cold Emailing & Cover Letter Generation Platform
+            </p>
+            <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base leading-relaxed">
+              Built this to cold email recruiters and auto-write cover letters, which helped me get interviews at Alaan and fast forward the application grind.
+            </p>
+          </a>
+
+          {/* Project 2 - LeetDoc */}
+          <a 
+            href="https://github.com/varunmathur2005/LeetDoc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group rounded-lg p-6 transition-all"
+          >
+            <h3 className="text-lg md:text-xl font-semibold mb-2 tracking-tight text-black dark:text-white underline underline-offset-4">
+              LeetDoc
+            </h3>
+            <p className="text-neutral-600 dark:text-neutral-400 text-xs md:text-sm mb-2 font-medium">
+              LeetCode Tracker with Smart Review Scheduling
+            </p>
+            <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base leading-relaxed">
+              Made a Chrome extension that logs my LeetCode solves for me and tells me when to revise, so I don't forget everything.
+            </p>
+          </a>
         </div>
       </div>
 
