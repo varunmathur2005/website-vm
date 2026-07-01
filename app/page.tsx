@@ -88,7 +88,7 @@ export default function Page() {
                 <a href="https://crysp.uwaterloo.ca/" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-semibold text-black dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors underline underline-offset-4">
                   University of Waterloo CrySP labs
                 </a>
-                <span className="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 shrink-0">2025 - 2026</span>
+                <span className="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 shrink-0">2026</span>
               </div>
               <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm mb-1">
                 Researching diffusion model security and running large-scale multi-GPU experiments
@@ -138,24 +138,6 @@ export default function Page() {
           </div>
 
           <div className="flex gap-4 items-start">
-            <Image src="/Favicon.png" alt="WATonomous" width={40} height={40} className="shrink-0 rounded" />
-            <div className="flex-1">
-              <div className="flex justify-between items-start gap-4 mb-1">
-                <a href="https://www.watonomous.ca/" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-semibold text-black dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors underline underline-offset-4">
-                  WATonomous
-                </a>
-                <span className="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 shrink-0">2025</span>
-              </div>
-              <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm mb-1">
-                Developed world modeling and HD mapping pipelines for autonomy
-              </p>
-              <p className="text-neutral-600 dark:text-neutral-400 text-xs italic">
-                Software Engineer • Design Team • Autonomous Vehicles 
-              </p>
-            </div>
-          </div>
-
-          <div className="flex gap-4 items-start">
             <Image src="/alaan_logo.png" alt="Alaan" width={40} height={40} className="shrink-0 rounded" />
             <div className="flex-1">
               <div className="flex justify-between items-start gap-4 mb-1">
@@ -169,6 +151,24 @@ export default function Page() {
               </p>
               <p className="text-neutral-600 dark:text-neutral-400 text-xs italic">
                 Engineering & Data Insights • Internship • FinTech
+              </p>
+            </div>
+          </div>
+
+          <div className="flex gap-4 items-start">
+            <Image src="/Favicon.png" alt="WATonomous" width={40} height={40} className="shrink-0 rounded" />
+            <div className="flex-1">
+              <div className="flex justify-between items-start gap-4 mb-1">
+                <a href="https://www.watonomous.ca/" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-semibold text-black dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors underline underline-offset-4">
+                  WATonomous
+                </a>
+                <span className="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 shrink-0">2024</span>
+              </div>
+              <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm mb-1">
+                Developed world modeling and HD mapping pipelines for autonomy
+              </p>
+              <p className="text-neutral-600 dark:text-neutral-400 text-xs italic">
+                Software Engineer • Design Team • Autonomous Vehicles 
               </p>
             </div>
           </div>
