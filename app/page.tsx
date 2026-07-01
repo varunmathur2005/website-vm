@@ -138,7 +138,7 @@ export default function Page() {
           </div>
 
           <div className="flex gap-4 items-start">
-            <Image src="/alaan_logo.png" alt="Alaan" width={40} height={40} className="shrink-0 rounded" />
+            <Image src="/alaanpay_logo.jpeg" alt="Alaan" width={40} height={40} className="shrink-0 rounded" />
             <div className="flex-1">
               <div className="flex justify-between items-start gap-4 mb-1">
                 <a href="https://www.alaan.com/" target="_blank" rel="noopener noreferrer" className="text-base md:text-lg font-semibold text-black dark:text-white hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors underline underline-offset-4">
