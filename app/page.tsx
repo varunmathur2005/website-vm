@@ -150,7 +150,7 @@ export default function Page() {
                 Built ML pipelines for document processing and fraud detection
               </p>
               <p className="text-neutral-600 dark:text-neutral-400 text-xs italic">
-                Engineering & Data Insights • Internship • FinTech
+                Software Engineering & Data Insights • Internship • FinTech
               </p>
             </div>
           </div>
