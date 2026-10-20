@@ -72,7 +72,7 @@ export default function Page() {
                 <span className="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 shrink-0">2026</span>
               </div>
               <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm mb-1">
-                Incoming Fall 2026
+                Engineering MCP-powered multi-agent AI systems for IDNA gateway diagnostics and incident triage
               </p>
               <p className="text-neutral-600 dark:text-neutral-400 text-xs italic">
                 Software Engineering • Internship
