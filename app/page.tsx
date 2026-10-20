@@ -49,10 +49,10 @@ export default function Page() {
             <span className="italic font-semibold">Computer Science</span> @ University of Waterloo.
           </p>
           <p className="text-neutral-900 dark:text-neutral-100 text-lg md:text-xl leading-relaxed mb-6 font-medium">
-            Machine Learning Security Researcher @ University of Waterloo CrySP Labs.
+            Software Engineering Intern @ Microsoft.
           </p>
           <p className="text-neutral-700 dark:text-neutral-300 text-base md:text-lg font-normal">
-            Previously at PointClickCare, Definity, Alaan (YC W23).
+            Previously at Uwaterloo CrySP Labs, PointClickCare, Definity, Alaan (YC W23).
           </p>
         </div>
       </div>
@@ -91,7 +91,7 @@ export default function Page() {
                 <span className="text-xs md:text-sm text-neutral-600 dark:text-neutral-400 shrink-0">2026</span>
               </div>
               <p className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm mb-1">
-                Researching diffusion model security and running large-scale multi-GPU experiments
+                Researched diffusion model security and ran large-scale multi-GPU experiments
               </p>
               <p className="text-neutral-600 dark:text-neutral-400 text-xs italic">
                 Machine Learning Researcher • Undergraduate Research Assistantship • Security
