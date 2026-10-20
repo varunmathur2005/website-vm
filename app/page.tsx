@@ -46,13 +46,13 @@ export default function Page() {
         {/* Right Column - About Me */}
         <div className="flex-1 max-w-2xl">
           <p className="text-neutral-900 dark:text-neutral-100 text-lg md:text-xl mb-6 leading-relaxed font-medium">
-            <span className="italic font-semibold">Computer Science</span> @ University of Waterloo.
+            <span className="italic font-semibold">Computer Science</span> @ University of Waterloo
           </p>
           <p className="text-neutral-900 dark:text-neutral-100 text-lg md:text-xl leading-relaxed mb-6 font-medium">
-            Software Engineering Intern @ Microsoft.
+            Software Engineering Intern @ Microsoft
           </p>
           <p className="text-neutral-700 dark:text-neutral-300 text-base md:text-lg font-normal">
-            Previously at Uwaterloo CrySP Labs, PointClickCare, Definity, Alaan (YC W23).
+            Previously at Uwaterloo CrySP Labs, PointClickCare, Definity, Alaan (YC W23)
           </p>
         </div>
       </div>
